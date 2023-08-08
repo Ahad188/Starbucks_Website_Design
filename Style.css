@@ -191,3 +191,24 @@
      text-align: justify;
      margin-bottom: 2rem;
 }
+/* about */
+.about{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 1.5rem;
+     background: #ebdbc8;
+}
+.about-img{
+     flex: 1 1 17rem;
+}
+.about-text{
+     flex: 1 1 17rem;
+}
+.about-text h2{
+     font-size: 1.2rem;
+     color: var(--secederColor);
+}
+.about-text p{
+     margin: 0.5rem 0 1rem;
+     text-align: justify;
+}
