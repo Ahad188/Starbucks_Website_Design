@@ -172,3 +172,24 @@
      background: #ebdbc8;
      color: var(--secederColor);
 }
+.container{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 1.5rem;
+     margin-top: 2rem;
+}
+.delivery-img{
+     flex: 1 1 21rem;
+}
+.delivery-text{
+     flex: 1 1 21rem;
+}
+.delivery-text h2{
+     font-size: 1.2rem;
+     color: var(--secederColor);
+}
+.delivery-text p{
+     margin: 2.2rem 0 1rem;
+     text-align: justify;
+     margin-bottom: 2rem;
+}
